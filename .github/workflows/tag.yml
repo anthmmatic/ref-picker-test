@@ -14,4 +14,4 @@ jobs:
           
           TAG=$(date +%s)
           git tag v${TAG}
-          git push
+          git push --tags
